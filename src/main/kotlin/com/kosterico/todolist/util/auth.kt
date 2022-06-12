@@ -1,4 +1,4 @@
-package com.kosterico.util
+package com.kosterico.todolist.util
 
 import io.ktor.util.*
 import javax.crypto.Mac

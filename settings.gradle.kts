@@ -1,1 +1,1 @@
-rootProject.name = "ktor-tutorial"
+rootProject.name = "ktor-todolist"

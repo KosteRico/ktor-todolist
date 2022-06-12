@@ -1,10 +1,10 @@
-package com.kosterico.dao
+package com.kosterico.todolist.dao
 
-import com.kosterico.db.tables.Todos
-import com.kosterico.dto.UpdateTodoRequest
-import com.kosterico.model.TodoEntity
-import com.kosterico.model.UserEntity
-import com.kosterico.modules.query
+import com.kosterico.todolist.db.tables.Todos
+import com.kosterico.todolist.dto.UpdateTodoRequest
+import com.kosterico.todolist.model.TodoEntity
+import com.kosterico.todolist.model.UserEntity
+import com.kosterico.todolist.modules.query
 import org.jetbrains.exposed.sql.*
 
 object TodoDao {

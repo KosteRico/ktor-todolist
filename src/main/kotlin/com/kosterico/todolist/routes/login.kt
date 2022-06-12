@@ -1,7 +1,7 @@
-package com.kosterico.routes
+package com.kosterico.todolist.routes
 
-import com.kosterico.dao.UserDao
-import com.kosterico.model.UserEntity
+import com.kosterico.todolist.dao.UserDao
+import com.kosterico.todolist.model.UserEntity
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*

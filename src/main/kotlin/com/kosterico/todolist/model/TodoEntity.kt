@@ -1,4 +1,4 @@
-package com.kosterico.model
+package com.kosterico.todolist.model
 
 data class TodoEntity(
     val id: Long = -1,

@@ -1,6 +1,6 @@
-package com.kosterico.modules
+package com.kosterico.todolist.modules
 
-import com.kosterico.dao.UserDao
+import com.kosterico.todolist.dao.UserDao
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 

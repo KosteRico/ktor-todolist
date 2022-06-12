@@ -1,9 +1,9 @@
-package com.kosterico
+package com.kosterico.todolist
 
-import com.kosterico.modules.basicAuth
-import com.kosterico.modules.initDb
-import com.kosterico.routes.login
-import com.kosterico.routes.todos
+import com.kosterico.todolist.modules.basicAuth
+import com.kosterico.todolist.modules.initDb
+import com.kosterico.todolist.routes.login
+import com.kosterico.todolist.routes.todos
 import io.ktor.serialization.jackson.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*

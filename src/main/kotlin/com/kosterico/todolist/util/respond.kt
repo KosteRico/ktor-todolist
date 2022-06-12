@@ -1,4 +1,4 @@
-package com.kosterico.util
+package com.kosterico.todolist.util
 
 import io.ktor.http.*
 import io.ktor.server.application.*

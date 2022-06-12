@@ -1,4 +1,4 @@
-package com.kosterico.model
+package com.kosterico.todolist.model
 
 import io.ktor.server.auth.*
 import java.io.Serializable

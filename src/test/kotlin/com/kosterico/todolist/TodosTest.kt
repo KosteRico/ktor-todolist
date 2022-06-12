@@ -1,9 +1,9 @@
-package com.kosterico
+package com.kosterico.todolist
 
-import com.kosterico.dao.TodoDao
-import com.kosterico.dao.UserDao
-import com.kosterico.model.TodoEntity
-import com.kosterico.routes.todos
+import com.kosterico.todolist.dao.TodoDao
+import com.kosterico.todolist.dao.UserDao
+import com.kosterico.todolist.model.TodoEntity
+import com.kosterico.todolist.routes.todos
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

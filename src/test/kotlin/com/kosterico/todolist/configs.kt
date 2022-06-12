@@ -1,9 +1,9 @@
-package com.kosterico
+package com.kosterico.todolist
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.kosterico.model.UserEntity
-import com.kosterico.modules.basicAuth
-import com.kosterico.util.hash
+import com.kosterico.todolist.model.UserEntity
+import com.kosterico.todolist.modules.basicAuth
+import com.kosterico.todolist.util.hash
 import io.ktor.client.plugins.auth.*
 import io.ktor.client.plugins.auth.providers.*
 import io.ktor.serialization.jackson.*

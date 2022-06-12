@@ -1,7 +1,7 @@
-package com.kosterico.modules
+package com.kosterico.todolist.modules
 
-import com.kosterico.db.tables.Todos
-import com.kosterico.db.tables.Users
+import com.kosterico.todolist.db.tables.Todos
+import com.kosterico.todolist.db.tables.Users
 import com.typesafe.config.ConfigFactory
 import io.ktor.server.application.*
 import io.ktor.server.config.*

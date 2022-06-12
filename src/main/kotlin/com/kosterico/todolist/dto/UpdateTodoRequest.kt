@@ -1,4 +1,4 @@
-package com.kosterico.dto
+package com.kosterico.todolist.dto
 
 data class UpdateTodoRequest(
     val text: String? = null,

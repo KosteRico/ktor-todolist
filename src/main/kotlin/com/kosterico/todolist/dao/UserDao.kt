@@ -1,9 +1,9 @@
-package com.kosterico.dao
+package com.kosterico.todolist.dao
 
-import com.kosterico.db.tables.Users
-import com.kosterico.model.UserEntity
-import com.kosterico.modules.query
-import com.kosterico.util.hash
+import com.kosterico.todolist.db.tables.Users
+import com.kosterico.todolist.model.UserEntity
+import com.kosterico.todolist.modules.query
+import com.kosterico.todolist.util.hash
 import org.jetbrains.exposed.sql.ResultRow
 import org.jetbrains.exposed.sql.and
 import org.jetbrains.exposed.sql.insert

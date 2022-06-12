@@ -1,4 +1,4 @@
-package com.kosterico.db.tables
+package com.kosterico.todolist.db.tables
 
 import org.jetbrains.exposed.sql.Table
 

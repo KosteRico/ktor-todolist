@@ -1,11 +1,11 @@
-package com.kosterico.routes
+package com.kosterico.todolist.routes
 
-import com.kosterico.dao.TodoDao
-import com.kosterico.dto.UpdateTodoRequest
-import com.kosterico.model.TodoEntity
-import com.kosterico.model.UserEntity
-import com.kosterico.modules.AuthName
-import com.kosterico.util.respondEmpty
+import com.kosterico.todolist.dao.TodoDao
+import com.kosterico.todolist.dto.UpdateTodoRequest
+import com.kosterico.todolist.model.TodoEntity
+import com.kosterico.todolist.model.UserEntity
+import com.kosterico.todolist.modules.AuthName
+import com.kosterico.todolist.util.respondEmpty
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
